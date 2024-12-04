@@ -5,6 +5,7 @@ const connectDB = require('./config/db');
 const authRoutes = require('./routes/authRoutes');
 const appointmentRoutes = require('./routes/appointmentRoutes');
 const logRoutes = require('./routes/logRoutes');
+const startHealthChecks = require('./healthChecks');
 
 // Express 应用
 const app = express();
